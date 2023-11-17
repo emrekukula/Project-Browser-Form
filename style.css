@@ -1,0 +1,30 @@
+* {
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+body {
+  background: grey
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid {
+  border: 5px solid red;
+}
+
+input[type="text"]:valid,
+input[type="password"]:valid,
+input[type="mail"]:valid {
+  border: 5px solid green;
+}
+
+input[type="mail"]:focus {
+  background: 'grey';
+}
